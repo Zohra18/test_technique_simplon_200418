@@ -1,0 +1,35 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+}
+h1{
+  color: white;
+  font-family: monospace;
+}
+#top{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding-bottom: 2%;
+}
+#container-movies{
+  display: flex;
+  justify-content: flex-start;
+}
+#search{
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+.movies{
+  width: 20%;
+}
+img{
+  height: 300px;
+  width: 100%;
+  opacity: 0.5;
+}
+img:hover{
+  opacity: 1;
+}
